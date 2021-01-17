@@ -1,0 +1,32 @@
+# настройки локального и глобального пользователя
+git config --local user.name "Name" 
+git config --local user.email "email" 
+git config --global user.name "Name" 
+git config --global user.email "email" 
+
+# вывод настроек 
+cat .git/config 
+
+# уровень конфигурации
+системные --system
+C:\Program Files\Git\etc\gitconfig
+C:\ProgramData\Git\config
+
+глобальные --global 
+C:\Users\Name\.gitconfig
+
+локальные --local
+project\.git\config
+
+# параметры конфигурации
+вывод из всех конфигурации
+git config --list
+
+вывод глобальных конфигурации
+git config --list --global
+
+просмотреть файл 
+cat ~/.gitconfig
+
+просмотреть все опции config
+git config -h
